@@ -1,0 +1,31 @@
+.body{
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 66% 33%;
+  /* width: 80vw; */
+}
+.form-left label{
+  margin: 20px;
+}
+.form-left input{
+  display: block;
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 20px;
+}
+.form-left button{
+  cursor: pointer;
+  margin: 20px;
+}
+.form-left button.active{
+  background: yellow;
+}
+.form-right{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+  padding: 10px;
+}
